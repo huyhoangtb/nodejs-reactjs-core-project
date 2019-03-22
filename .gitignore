@@ -1,0 +1,5 @@
+.idea/
+server/.idea/
+frontend/.idea/
+
+frontend/src/**/*.css
