@@ -1,0 +1,31 @@
+@import "../../configs/css-configuration.scss";
+
+.homepage {
+  display: flex;
+  .home-list-order {
+    flex-grow: 1;
+  }
+
+  .home-quick-order {
+    width: 300px;
+    margin-left: 30px;
+
+    .quick-header {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      padding: 8px 0;
+      .home-help-btn {
+        padding: 5px 10px;
+        font-size: 12px;
+        border: 1px solid $highline-color-small;
+        border-radius: 2px;
+        color: $highline-color-small;
+        &:hover {
+          color: $highline-color-small;
+        }
+      }
+    }
+  }
+
+}

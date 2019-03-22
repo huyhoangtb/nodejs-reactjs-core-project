@@ -1,0 +1,45 @@
+@import '../../../../configs/css-configuration.scss';
+
+.ui-custom-tab-viewer {
+  .tab-header {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid $border-color;
+    padding: 2px 10px 0px 0;
+    .tab-title {
+
+    }
+
+    .tab-header-item-panel {
+      flex-grow: 1;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+
+      .tab-header-items {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: block;
+        .tab-item {
+          display: inline-block;
+          font-weight: 300;
+          border-color: #e4e6e8;
+          font-size: 13px;
+          padding: 12px 10px;
+          cursor: pointer;
+          border-bottom-color: transparent;
+
+          &.active-tab {
+            border-left: 1px solid $border-color;
+            border-right: 1px solid $border-color;
+            border-top: 2px solid $primary-color;
+            border-bottom-color: transparent;
+            transform: translateY(1px);
+            background: #ffffff;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+@import "styles/configs.scss";
+
+.ui-market-layout {
+  .center-m-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .ui-content-panel {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  .highlight-text {
+    color: $dark-color;
+    font-weight: 600;
+  }
+  .custom-anticon {
+    margin-right: 5px !important;
+  }
+
+  .text-center-block {
+    display: flex;
+    align-items: center;
+  }
+  .custom-anticon-eth {
+    margin-right: 2px !important;
+    img {
+      width: 22px;
+      transform: translateX(-3px);
+    }
+  }
+
+  [class^="is-icon-"], [class*=" is-icon-"] {
+    height: 18px;
+    width: 18px;
+    display: inline-block;
+    fill: currentColor;
+    margin-bottom: -5px;
+  }
+
+}

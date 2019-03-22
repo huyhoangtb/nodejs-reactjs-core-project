@@ -1,0 +1,16 @@
+@import "../../../configs/css-configuration.scss";
+
+.buy-order {
+
+  .header {
+    padding: 10px;
+    color: $white !important;
+    font-weight: 600;
+    background-color: $primary-color;
+  }
+  .content {
+    border: 1px solid $border-color;
+    min-height: 200px;
+    padding: 10px;
+  }
+}

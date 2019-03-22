@@ -1,0 +1,13 @@
+.loading-panel {
+  position: fixed;
+  width: 100%;
+  top: 200px;
+  z-index: 1500;
+  height: 80px;
+  .loading-sub-panel {
+    position: relative;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+  }
+}

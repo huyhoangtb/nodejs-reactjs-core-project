@@ -1,0 +1,67 @@
+@import "../styles/configs.scss";
+
+.ui-top-menu {
+  &.ant-layout-header {
+    height: 50px;
+    line-height: 50px;
+    padding: 0 30px;
+  }
+  color: $dark-color;
+  //border-top: 2px solid $primary-color;
+  background: $dark-color !important;
+
+  .ui-top-menu-panel {
+    display: flex;
+    //max-width: 1250px;
+    padding: 0;
+    height: 100%;
+    margin: 0 auto;
+    .logo-panel {
+      width: 200px;
+      color: $white;
+      padding-right: 25px;
+      font-weight: 100;
+      letter-spacing: 1.3px;
+      font-family: Raleway, Helvetica Neue, Arial, sans-serif !important;
+      .logo-text {
+        font-size: 25px;
+      }
+    }
+    .ui-right-menu {
+      flex-grow: 1;
+      justify-content: flex-end;
+      display: flex;
+    }
+
+    .ant-menu-item-selected {
+      background-color: transparent !important;
+    }
+  }
+
+  .ant-menu {
+    background-color: transparent;
+    color: #ffffff;
+    opacity: 0.8;
+    border: none;
+    .ant-menu-submenu {
+      top: 0;
+      margin-top: 0;
+      border: none;
+    }
+    .ant-menu-submenu-title {
+      height: 100%;
+    }
+    .ant-menu-item-selected, .ant-menu-item-active {
+      color: #ffffff !important;
+      opacity: 0.9 !important;
+      border-color: transparent !important;
+      background-color: rgba(255, 255, 255, 0.1) !important;
+    }
+
+    .ant-menu-item, .ant-menu-submenu-title {
+      padding: 0 8px;
+      height: 100%;
+    }
+  }
+
+}
